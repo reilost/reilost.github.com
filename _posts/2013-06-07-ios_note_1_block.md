@@ -20,22 +20,22 @@ Block写法
     Block在iOS里引入很久了，估计人人都知道了，也就懒得介绍了。
     第一次接触block应该会觉得比较诡异
     
-    *一个空block*
+   *一个空block*
     {% highlight objc %} 
     ^{
         //Block
     }
     {% endhighlight %}
  
-    *一个名字定义为aBlock的block*
+   *一个名字定义为aBlock的block*
  
-    {% highlight objc %}
+   {% highlight objc %}
     void(^aBlocak)()=^(){
          //do something
      };
     {% endhighlight %}
 
-    *block格式*
+   *block格式*
     {% highlight objc %}
     return_type (^ block_name)  (parameters) = ^(parameters) {
         //do something

@@ -44,4 +44,4 @@ Block写法
 
 
 
-![image](../media/image/block_1.png)
+![image](/media/image/block_1.png)
